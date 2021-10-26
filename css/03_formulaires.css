@@ -1,0 +1,18 @@
+label{
+    width: 190px; /* width = largeur */
+    color:black;
+    background-color: lightgray;
+}
+body{
+    background-color:blanchedalmond;
+}
+input{
+    color:black;
+    background-color: greenyellow;
+}
+fieldset{
+    color: black;
+}
+form{
+    background-color: yellow;
+}

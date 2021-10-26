@@ -1,0 +1,71 @@
+body{
+    background-color:white;
+    font-size: 25px;
+}
+
+h1{
+    background-color: tomato;
+    color: mediumblue;
+}
+
+p{
+    color: salmon;
+}
+
+section p:first-child{ /* premier p */
+    color:red;
+}
+
+section p:last-child{ /* dernier p */
+    color: seagreen; 
+}
+
+section p:nth-child(even){ /* nombres pairs */
+    color: blueviolet; 
+}
+
+section p:nth-child(odd){ /* nombres impairs */
+    color: yellowgreen;
+}
+
+section p:nth-child(3), section p:nth-child(10){
+    color:dodgerblue;
+}
+
+.zone1{
+    color: firebrick;
+}
+
+.zone2{
+    color: green;
+}
+
+.lime{
+    color:lime;
+}
+
+.zone3{
+    background-color: maroon;
+}
+.zone3:before{
+    content: "rajouté avant"; /* content est obligatoire m^me s'il n'y rien à ajouté */
+    background-color: mediumspringgreen;
+}
+
+.zone3:after{
+content: "rajouté après";
+background-color: navy;
+}
+
+li:nth-of-type(2){
+    background-color: turquoise;
+    color: white;
+}
+
+.zone4 span{
+    color: red;
+}
+
+span:not(.lim){
+    font-weight:bold; :/* graisse de la police */
+}

@@ -1,0 +1,48 @@
+*{ /* l'étoile signifie qu'on sélectionne tout le document, c'est un sélecteur universel */
+text-align: right;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+header{
+background-color: darkseagreen;
+color: grey;
+height: 100px; /* height = hauteur */
+}
+
+nav{
+    background-color: indigo;
+    height: 60px;
+}
+
+section{
+    background-color: lightslategrey;
+    height: 550px;
+}
+
+article{
+    background-color: magenta;
+    height: 75px;
+}
+
+footer{
+    background-color: sienna;
+    height: 66px;
+}
+
+nav, footer{
+    color: salmon;
+}
+
+.jaune{ /* j'appel la class avec un point */
+    background-color: yellow;
+}
+
+#noir{ /* j'appel l'id avec un diez */
+background-color: black;
+color: white;
+text-align: justify;
+font-size: 25px; /* font-size = taille de la police */
+}
