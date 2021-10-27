@@ -1,0 +1,47 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    width: 50%; /* pourcentage par rapport à la tailel de l'écran */
+    margin: auto; /* gestion automatique des marges pour que le tableau soit centré */
+}
+
+table{
+    border: 4px dotted darkred; /* épaisseur, trait normal et couleur */
+    border-collapse: collapse; /* pour coller les borders des cellules */
+    width: 100%; /* prend toute la largeur du body */
+}
+
+caption{
+    font-size: 30px;
+    color: blueviolet;
+    padding: 20px; /* espace */
+    background-color: black;
+}
+
+thead, tfoot{
+    background-color: gold;
+    border: 2px solid darkred;
+}
+
+tbody{
+    border: 3px dashed darkred; /* dashed, dotted, double, ridge, groove, solid */
+}
+
+th{
+    border: 1px dotted darkred;
+    padding: 4px;
+    background-color: lightcoral;
+}
+
+td{
+    font-size: 120%;
+    border: 1px groove darkred;
+    text-align: center;
+}
+
+tr td:first-child{ /* 1er td pour aligner le texte à gauche de chaque rangée */
+    text-align: left;
+    background-color: aqua;
+}
