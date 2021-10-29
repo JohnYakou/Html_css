@@ -1,0 +1,57 @@
+body{
+    font-size: 25px;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid darkcyan;
+}
+
+header{
+    background-color: darkgrey;
+    height: 100px;
+    text-align: center;
+}
+
+nav{
+    background-color: darkorange;
+    height: 30px;
+}
+
+section{
+    background-color: darkseagreen;
+    height: 500px;
+    margin: 20px;
+}
+
+footer{
+    background-color: darkturquoise;
+    height: 100px;
+}
+
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.a{
+    background-color: darkviolet;
+}
+
+.b{
+    background: deepskyblue;
+}
+
+.c{
+    background-color: darkolivegreen;
+}
+
+.d{
+    background-color: darkslategrey;
+}
+
+.clear{
+    clear:both;
+}
