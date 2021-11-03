@@ -11,7 +11,11 @@ body{
     border: 5px groove red;
     margin: 4vh;
     float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+<<<<<<< HEAD
     transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce à :hover */
+=======
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+>>>>>>> main
 }
 
 .boite:hover{ /* pseudo class qui applique un effet au survol de la souris */
@@ -19,5 +23,9 @@ margin-top: 7vh;
 }
 
 .clear{
+<<<<<<< HEAD
     clear:both; /* both = supprime l'effet flottant des deux cotés, met un espace, un blanc */
+=======
+    clear:both; /* both = supprime l'effet flottant des deux cotés */
+>>>>>>> main
 }
